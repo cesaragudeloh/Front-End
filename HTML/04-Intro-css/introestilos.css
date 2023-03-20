@@ -1,0 +1,51 @@
+/* Estilos para colores */
+.colores{
+    color: red;
+}
+
+.color-hexadecimal{
+    color: #BCE784;
+    font-size: 30px;
+}
+
+.color-rgb{
+    color: rgb(146, 13, 13);
+    font-size: 30px;
+}
+
+.color-rgba{
+    color: rgba(10, 10, 10, 0.2);
+    font-size: 30px;
+}
+
+/* Fondos */
+.fondo{
+    background-color: cornflowerblue;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJbLLDXWjjvF-gemcjlpyFQp1g2hGo6cg5_BdQ40LtFm-f0J9jofZcm810RJGVn8OZQBs&usqp=CAU");
+    background-position: left bottom;
+}
+
+.fondo-interno{
+    background-image: url("images/abstract-background.jpg");
+    background-position: center top;
+}
+
+/* Tamaños */
+.ancho{
+    background-color: blueviolet;
+    width: 100px;
+}
+
+.alto{
+    background-color: aquamarine;
+    height: 200px;
+}
+
+.tarjeta{
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-width: 10px;
+    /*border-top: none; */
+    padding: 10px 20px;
+    margin: 20px;
+}
